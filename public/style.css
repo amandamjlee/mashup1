@@ -1,0 +1,123 @@
+h1,h2,h3 {margin: 0;, padding: 0;
+		text-align: center;
+		display: block;
+		font-family: 'Raleway', sans-serif;
+		font-weight: lighter;
+		color: white;
+		
+        
+}
+
+body {background-image: url(P1060487.JPG);
+		background-size: 100%;
+	/*background-size:cover;*/
+/*	background-repeat: no-repeat;*/
+}
+
+
+
+.wrapper {margin-bottom: -65px;}
+
+
+.concept-button { font-family: 'Raleway', sans-serif;
+				font-weight: lighter;
+				color: lightgrey;
+				padding-left: 10px;
+				font-size: 13px;
+				letter-spacing: 3px;
+				display: inline-block;
+}
+
+
+.concept-button:hover {color:white;
+					font-style: italic;
+					display: inline-block;
+}
+
+
+.concept-button:hover:after {
+	content: ' - Music changes by mood of the weather ! ';
+	display: inline-block;
+
+}
+
+h1 {margin-top: 30px;
+	padding: 40px;
+	letter-spacing: 13px;
+    font-weight: lighter;
+    font-size: 40px;
+    color: white;
+
+}
+
+
+
+
+h2 {letter-spacing: 4px;
+	font-size: 13px;
+	padding: 15px;
+	margin-top: 10px;
+
+
+}
+
+h2.weather-title{display: inline-block;
+				margin-bottom: 8px;
+}
+
+h3 {margin-bottom: 15px;
+	letter-spacing: 2px;
+	font-size: 12px;
+	color: white;
+	font-weight: lighter;
+}
+
+
+
+
+.musicplayer {text-align: center;
+			position:relative;
+			top:-5px;}
+
+
+
+.infor {text-align: center;}
+
+
+.infor #the-button {margin-bottom: 25px;}
+
+#new-note {text-align: center;
+			position:relative;
+			top:290px;
+}
+
+
+
+.weathermusic {padding: 10px;
+			margin-bottom: 25px;
+
+}
+
+
+.buttons{
+		display: inline-block;
+		float: right;
+		padding: 10px;
+}
+
+#clear_widget {display: none;}
+#random_widget {display: none;}
+#cloudy_widget {display: none;}
+#rainy_widget {display: none;}
+
+
+
+
+textarea {width: 200px;
+		height: 15px;
+		margin-bottom: 10px;
+}
+
+/*
+canvas #defaultCanvas0 {  }*/
+
