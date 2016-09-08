@@ -84,8 +84,9 @@ app.get("/api/all", function (req, res){
 
 });
 
-app.listen(3000);
-console.log('Express started on port 3000');
-
-
 var port = process.env.PORT || 3000;
+
+app.listen(port);
+console.log('Express started on port '+port);
+
+
